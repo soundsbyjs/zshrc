@@ -14,10 +14,7 @@ ZSH=/usr/share/oh-my-zsh/
 ZSH_THEME="arrow"
 
 # Case-sensitive completion must be off. _ and - will be interchangeable.
-HYPHEN_INSENSITIVE="true"
-
-# because pasting urls is fucked
-DISABLE_MAGIC_FUNCTIONS="true"
+HYPHEN_INSENSITIV="true"
 
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
@@ -47,6 +44,7 @@ alias pacdate="sudo pacman -Syu "
 alias pacremove='sudo pacman -R '
 alias pacstall="sudo pacman -Sy "
 alias quickclone='git clone https://www.github.com/$1' # quickclone "username/repo"
+alias projucer='projucer'
 
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
   $ZSH_CACHE_DIR
